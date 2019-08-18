@@ -9,7 +9,7 @@ function App() {
       {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
       <div className="demo-big-content">
           <Layout>
-              <Header className="header-color" title="Shubham Chaudhary" scroll>
+              <Header className="header-color" title={<Link style={{textDecoration:'none',color:'white'}} to='/' >My Portfolio</Link>} scroll>
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/projects">Projects</Link>
@@ -17,7 +17,7 @@ function App() {
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer title="Shubham Chauhdary">
+              <Drawer title={<Link style={{textDecoration:'none',color:'black'}} to='/' >My Portfolio</Link>}>
                   <Navigation>
                       <a href="/resume">Resume</a>
                       <a href="/projects">Projects</a>
