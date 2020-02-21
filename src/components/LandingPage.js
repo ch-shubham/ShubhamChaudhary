@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
+import logo from './assets/image1.JPG';
+
 class LandingPage extends Component{
     render(){
         return(
@@ -7,7 +9,7 @@ class LandingPage extends Component{
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="https://gardamaya.com/wp-content/uploads/2018/04/mas-adit-transparan.png"
+                            src={logo}
                             alt='avatar'
                             className="avatar-image"
                         />
@@ -21,23 +23,23 @@ class LandingPage extends Component{
                             <div className="social-links">
                                 
                                 {/* LinkedIn */}
-                                <a href="https://google.co.in" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/ch-shubham/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                             
                                 {/* Github */}
-                                <a href="https://google.co.in" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/ch-shubham" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
                             
-                                {/* Freecodecamp */}
-                                <a href="https://google.co.in" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-free-code-camp" aria-hidden="true"/>
+                                {/* Twitter */}
+                                <a href="https://twitter.com/ch__shubham" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-twitter-square" aria-hidden="true"/>
                                 </a>
                             
-                                {/* Youtube */}
-                                <a href="https://google.co.in" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-youtube-square" aria-hidden="true"/>
+                                {/* Facebook */}
+                                <a href="https://www.facebook.com/shubham128166" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-facebook-square" aria-hidden="true"/>
                                 </a>
                             
                             </div>

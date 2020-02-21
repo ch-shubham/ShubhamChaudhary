@@ -15,7 +15,7 @@
     height: 100%;
 }
 .avatar-image{
-    height: 250px;
+    height: 400px;
     padding-top: 5em;   
 }
 .banner-text{
@@ -58,6 +58,8 @@
 
 .projects-grid{
     display: flex;
+    margin: 10px;
+    
 }
 
 

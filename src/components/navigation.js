@@ -13,7 +13,7 @@ function App() {
                   <Navigation>
                       <Link to="/resume">Resume</Link>
                       <Link to="/projects">Projects</Link>
-                      <Link to="/aboutme">About Me</Link>
+                      {/* <Link to="/aboutme">About Me</Link> */}
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
@@ -21,7 +21,7 @@ function App() {
                   <Navigation>
                       <a href="/resume">Resume</a>
                       <a href="/projects">Projects</a>
-                      <a href="/aboutme">About Me</a>
+                      {/* <a href="/aboutme">About Me</a> */}
                       <a href="/contact">Contact</a>
                   </Navigation>
               </Drawer>
